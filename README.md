@@ -74,6 +74,18 @@ poll-system/
 
 ---
 
+## Running Unit Tests
+
+To run the unit tests for the poll system module, use the following command:
+
+```bash
+lando unit-test
+```
+
+This will execute the Drupal tests for the `poll_system` module inside the Lando environment. The command uses the configuration defined in `.lando.yml` and outputs verbose test results.
+
+---
+
 ## REST API
 
 ### GET `/api/poll-system/{identifier}`
